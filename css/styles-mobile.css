@@ -1,0 +1,172 @@
+@media all and (min-width: 320px) and (max-width: 768px) {
+    #logo {
+        width: 95px;
+    }
+
+    #inner-hdr {
+        justify-content: space-around;
+    }
+
+    nav {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    nav ul li {
+        width: 50%;
+        height: 35px;
+        padding-top: 38px;
+    }
+
+    nav ul li:hover {
+        border-top: 0;
+        border-bottom: 2px solid #0065FC;
+        cursor: pointer;
+        color: #0065FC;
+    }
+
+    #fltr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #fltr div {
+        margin: 5px 0;
+    }
+
+    #fltr div:nth-child(3) {
+        width: 140px;
+    }
+
+    #chercheur {
+        width: 100%;
+    }
+
+    #rechercher-btn {
+        display: none;
+    }
+
+    #rechercher-btn-mob {
+        display: block;
+        border-radius: 10px;
+        width: 44px;
+    }
+
+    #forme {
+        width: 100%;
+    }
+
+    #contenu {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    #contenu h2 {
+        font-size: 22px;
+    }
+
+    #populaires {
+        width: 100%;
+        min-height: 490px;
+        padding: 0;
+    }
+
+    #populaires h2 {
+        width: 90%;
+        padding-left: 15px;
+    }
+
+    .bulles-1 {
+        width: 93%;
+    }
+
+    .bulles-2 {
+        width: 92%;
+    }
+
+    .activités div {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+    #fltr i {
+        margin-right: 4px;
+        height: 20px;
+    }
+
+    #fltr div {
+        width: 210px;
+        line-height: 38px;
+        font-size: 17px;
+        margin: 5px;
+    }
+
+    #fltr div:nth-child(1) {
+        width: 60px;
+    }
+
+    #fltr div:nth-child(3) {
+        width: 140px;
+    }
+
+    #fltr div:nth-child(5) {
+        width: 270px;
+    }
+
+    #chercheur {
+        width: 100%;
+    }
+
+    #forme {
+        width: 350px;
+    }
+
+    #contenu {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    #contenu h2 {
+        font-size: 30px;
+    }
+
+    #populaires {
+        width: 100%;
+        min-height: 490px;
+        padding: 0;
+    }
+
+    #populaires h2 {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .populaires {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .bulles-1 {
+        width: 93%;
+        height: 400px;
+        font-size: 25px;
+    }
+
+    .activités .bulles-1 h3 {
+        font-size: 19px;
+    }
+
+    .activités .bulles-1 {
+        height: 55%;
+    }
+
+    .bulles-2 {
+        width: 92%;
+        height: 150px;
+        font-size: 20px;
+    }
+}
