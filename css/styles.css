@@ -325,9 +325,16 @@ nav ul li a {
 }
 
 .activités div:nth-child(2) {
-    height: 200px;
+    height: 260px;
 }
 
+.activités div:nth-child(2) img {
+    height: 85%;
+}
+
+.activités div:nth-child(3) {
+    height: 135px;
+}
 
 footer {
     min-height: 200px;
